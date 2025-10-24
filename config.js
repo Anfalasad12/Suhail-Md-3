@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "Made With LOVE!"
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923497749223";
 
 
 
@@ -73,10 +73,10 @@ module.exports = {
   VERSION : process.env.VERSION || "3.0.1-developement",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  author : process.env.PACK_AUTHER|| "Asad",
+  packname: process.env.PACK_NAME || "❤️Asad",
+  botname : process.env.BOT_NAME  || "Asad-MD",
+  ownername:process.env.OWNER_NAME|| "ASAD MALIK",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,7 +91,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "ASAD"  ).toUpperCase(),
 
 
 
@@ -125,4 +125,4 @@ global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 global.rank = "updated"
 global.isMongodb = false; 
 let file = require.resolve(__filename)
-fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file)
+fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
